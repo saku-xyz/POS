@@ -3,7 +3,7 @@
 @section('title', 'Product List')
 @section('content-header', 'Product List')
 @section('content-actions')
-<a href="{{route('products.index')}}" class="btn btn-primary">Create Product</a>
+<a href="{{route('products.create')}}" class="btn btn-primary">Create Product</a>
 @endsection
 @section('content')
     <div class="card">
